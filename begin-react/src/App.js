@@ -1,16 +1,10 @@
 import React from "react";
-import Props from "./Props";
-import Wrapper from "./Wrapper";
-import ConditionalRednering from "./ConditionalRendering";
+import Inputs from "./Inputs";
 
 function App() {
   return (
-    <Wrapper>
-      <Props name="React" color="red" />
-      <Props color="blue" />
-      <ConditionalRednering isSpecial />
-    </Wrapper>
-  )
+    <Inputs />
+  );
 }
 
 export default App;
